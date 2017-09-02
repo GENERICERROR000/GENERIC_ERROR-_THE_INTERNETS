@@ -11,12 +11,12 @@
   justify-content: space-between;
 }
 
-.normal-image {
-  height: 100px;
-}
-
 .small-image  {
   height: 75px;
+}
+
+.normal-image {
+  height: 100px;
 }
 
 .large-image {
@@ -27,12 +27,13 @@
   height: 300px;
 }
 
+.huge-image {
+  height: 400px;
+}
 
 
-
-
-/*#apple:hover {
-  border-radius: 10px;
+.can-click:hover {
+  /*border-radius: 10px;*/
   -webkit-filter: invert(1);
   filter: invert(1);
-}*/
+}
