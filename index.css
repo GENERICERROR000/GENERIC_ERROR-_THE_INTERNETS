@@ -6,29 +6,33 @@
 .child {
   justify-self: center;
   text-align: center;
-  padding: 15px;
+  padding: 1.5vh;
   display: flex;
   justify-content: space-between;
 }
 
 .small-image  {
-  height: 75px;
+  height: 7vh;
 }
 
 .normal-image {
-  height: 100px;
+  height: 10vh;
 }
 
 .large-image {
-  height: 200px;
+  height: 20vh;
 }
 
 .xlarge-image {
-  height: 300px;
+  height: 30vh;
 }
 
 .huge-image {
-  height: 400px;
+  height: 40vh;
+}
+
+.ginormous-image {
+  height: 60vh;
 }
 
 .can-click:hover {
@@ -45,5 +49,5 @@
 }
 
 .shift {
-  padding-left: 150px;
+  padding-left: 15vh;
 }
