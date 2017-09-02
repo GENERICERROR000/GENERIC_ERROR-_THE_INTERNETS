@@ -31,9 +31,19 @@
   height: 400px;
 }
 
-
 .can-click:hover {
-  /*border-radius: 10px;*/
   -webkit-filter: invert(1);
   filter: invert(1);
+}
+
+.can-click:hover + .message {
+  display: flex;
+}
+
+.message {
+  display: none;
+}
+
+.shift {
+  padding-left: 150px;
 }
